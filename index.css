@@ -1,0 +1,61 @@
+body{
+    background-color:black;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    color: aliceblue;   
+}
+
+p, a, form, ul{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background-color: black;
+    line-height: 1.4;
+    margin-right: 7%;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  text-align: center;
+}
+
+a:hover {
+    color: gold;
+}
+
+.wrapimge {
+    float: right;
+}
+
+.wraplist{
+  float: right;
+}
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+    font-family: Cascadia Mono Extralight;
+  }
+  
+  h2:before,
+  h2:after {
+    background-color: gold;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
