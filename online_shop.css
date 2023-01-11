@@ -1,0 +1,108 @@
+header{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    border: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#D5EDF6;
+}
+
+h1{
+    font-size: 70px;
+}
+
+img{
+    padding: 2%;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-right: 3%;
+    padding-top: 2.5%;
+}
+
+button {
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover,
+button:active {
+    outline: 0;
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+}
+
+button:hover:before {
+    background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 16px 32px;
+  }
+}
+
+title{
+    font-size: 25px;
+}
+
+input{
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #266DB6; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+form ul{
+    list-style-type: none;
+}
+
+form ul li{
+    display: inline-block;
+}
+
+form{
+    box-sizing: border-box;
+    border-color: #266DB6 ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
