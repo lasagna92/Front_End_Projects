@@ -14,18 +14,22 @@ The database contains the following book details:
 * Quantity
 
 The programm uses a Tkinter interface where the user can choose between the following options:
-* Add an item
-* View all the items 
-* Re-stock the item with the lowest stock 
-* Search an item by the code
-* Get the value of the items 
-* Display the item with the highest stock
+* Enter a Book(add a new book to the database)
+* Search Book(retrive a dispaly a specific book through the id, title or author)
+* Show Books(retrive and display all the books in the database)
+* Clear Input
+* Update Books(retrive the book form his id and opens a new window where you can modify the book info) 
+* Delete Book(retrive the book from his id and deletes it)
 ### Screenshot
-![menu](https://github.com/lasagna92/finalCapstone/blob/f102d4f40c302c3e591b3875ca95eeff49889369/2023-01-04%20(2).png)
+![menu](https://github.com/lasagna92/Projects/blob/main/2023-01-29.png)
+![menu](https://github.com/lasagna92/Projects/blob/main/2023-01-29.png)
 
 ### Technologies
 ***
-The technology used for this project is [Python 3.10.9](https://www.python.org/downloads/release/python-3109/) 
+The technologies used for this project are:
+[Python 3.10.9](https://www.python.org/downloads/release/python-3109/)
+[Tkinter](https://docs.python.org/3/library/tkinter.html)
+
 
 ### Installation
 ***
