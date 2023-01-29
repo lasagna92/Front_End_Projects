@@ -8,6 +8,7 @@
 This is a book library appication where the user can add, modify, delete and retrive books from a SQLite database.
 
 The database contains the following book details:
+* Book Id
 * Title
 * Author
 * Quantity
