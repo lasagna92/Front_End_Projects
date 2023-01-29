@@ -10,13 +10,9 @@ This is a book library appication where the user can add, modify, delete and ret
 The database contains the following book details:
 * Title
 * Author
-* 
-* Cost
-* Quantity  
-### Screenshot
-![inventory.txt](https://github.com/lasagna92/finalCapstone/blob/f102d4f40c302c3e591b3875ca95eeff49889369/2023-01-04%20(1).png)
+* Quantity
 
-The programm displays a menu where the user can choose between the following options:
+The programm uses a Tkinter interface where the user can choose between the following options:
 * Add an item
 * View all the items 
 * Re-stock the item with the lowest stock 
